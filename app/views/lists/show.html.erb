@@ -4,7 +4,7 @@
   <h2><%@list.movies.each do |m|%>
     <div class="card-product">
         <%= image_tag "#{m.poster_url}" %>
-          <div class="card-product-infos">
+          <div class="card-product-infos p-4">
             <h2><%= m.title%></h2>
             <p><%= m.overview%></p>
             <p><%= m.rating%></p>
